@@ -3,6 +3,8 @@ import 'package:flutter/material.dart';
 
 @RoutePage()
 class ExampleScreen extends StatelessWidget {
+  static const path = "/example";
+
   const ExampleScreen({super.key});
 
   @override

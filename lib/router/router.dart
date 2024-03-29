@@ -6,5 +6,7 @@ part 'router.gr.dart';
 @AutoRouterConfig()
 class AppRouter extends _$AppRouter {
   @override
-  List<AutoRoute> get routes => [];
+  List<AutoRoute> get routes => [
+    AutoRoute(page: ExampleRoute.page, path: ExampleScreen.path),
+  ];
 }
